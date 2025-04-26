@@ -514,8 +514,31 @@ header {
 /* == CONTACT-HERO == */
 
 /* == CONTACT-CONTENT == */
+.contact-info {
+  padding: 5% 2%;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 3%;
+}
+
+.contact-info h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1.5%;
+}
+
+.contact-info p {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 2%;
+}
 
 
+.contact-info i {
+  font-size: 1.2rem;
+  color: #2c3e50;
+}
 
 /* == CONTACT-CONTENT == */
 
