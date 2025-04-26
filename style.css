@@ -102,18 +102,18 @@ header {
     
     .hero img {
         width: 20%;
-        border-radius: 50%;
+        border-radius: 15%;
     }
     
     .hero h2 {
-        font-size: 2rem;
-        margin-top: 20px;
+        font-size: 2.5rem;
+        margin-top: 1rem;
         color: #1e2a38;
     }
     
     .hero p {
-        font-size: 1.2rem;
-        color: #555;
+        font-size: 1.5rem;
+        color: #666;
     }
 
     /* == HERO-HOMEPAGE == */
@@ -121,27 +121,26 @@ header {
     /* EXPLORE-SECTION */
 
     .sections {
-        padding: 40px 20px;
+        padding: 4rem 1rem;
         text-align: center;
-        background-color: #f0f0f0;
     }
     
     .sections h3 {
-        font-size: 1.7rem;
-        color: #1e2a38;
+        font-size: 2rem;
+        margin-bottom: 2rem;
     }
     
     .card-container {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         gap: 30px;
     }
     
     .card {
         background-color: #ffffff;
-        padding: 20px;
+        padding: 2rem;
         width: 30%;
-        border-radius: 8px;
+        border-radius: 10px;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08);
     }
     
@@ -149,12 +148,18 @@ header {
         box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
     }
     
+    .card img{
+      height: 30%;
+      width: 20%;
+    }
+
     .card h4 {
-        font-size: 1.5rem;
-        color: #1e2a38;
+        font-size: 2rem;
+        margin-bottom: 1rem;
     }
     
     .card p {
+      font-size: 1rem;
         color: #555;
     }
     
@@ -163,14 +168,18 @@ header {
 
     /* REVIEWS  */
     .reviews {
-        padding: 30px 20px;
+        padding: 4rem 1rem;
         background-color: #fef9f3;
         text-align: center;
     }
-    
+    .reviews h3{
+      font-size: 1.8rem;
+    }
     .reviews p {
         font-style: italic;
-        color: #555;
+        margin: 0.5rem;
+        color: #444;
+        font-size: 1.2rem;
         border-left: 4px solid #ccc;
     }
 
