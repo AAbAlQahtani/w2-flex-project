@@ -145,8 +145,8 @@ header {
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08);
     }
     
-    .card-container :hover {
-        background-color: #fcf5e8;
+    .card:hover{
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
     }
     
     .card h4 {
@@ -375,6 +375,151 @@ header {
 /* == WORKS-CONTENT == */
 
 /* == WORKS-PAGE == */
+
+
+
+/* == EVENTS-PAGE == */
+
+/* == EVENTS-HERO == */
+.hero-events {
+  background-image: url("https://variety.com/wp-content/uploads/2016/02/rexfeatures_5586123fl.jpg?w=1000&h=667&crop=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  position: relative;
+  text-align: center;
+  padding: 8% 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: white;
+  z-index: -1;
+}
+
+.hero-events h1 {
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+.hero-events p {
+  font-size: 1.2em;
+  margin: 0 auto;
+}
+/* == EVENTS-HERO == */
+
+/* == EVENTS-CONTENT == */
+.form-container {
+  max-width: 55%;
+  background-color: #fff;
+  margin: 5% auto;
+  padding: 3%;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.event-info {
+  text-align: center;
+  font-size: 1.1em;
+  color: #666;
+}
+
+.form-subtitle {
+  font-size: 1.5em;
+  color: #333;
+  margin-top: 3%;
+}
+
+.form-label {
+  display: block;
+  margin-top: 1.5%;
+  font-size: 1.1em;
+  color: #333;
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 1.2%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+.form-radio-group, .form-checkbox{
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+.form-radio, .form-checkbox {
+  margin-right: 1%;
+}
+
+.form-checkbox{
+  display: flex;
+  gap: 8px;
+}
+
+.form-checkbox input {
+  margin-top: 10px;
+}
+.form-submit {
+  width: 100%;
+  background-color:#e49311;
+  color: white;
+  padding: 15px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-submit:hover {
+  background-color: #cd8410;
+}
+/* == EVENTS-CONTENT == */
+
+/* == EVENTS-PAGE == */
+
+
+/* == CONTACT-PAGE == */
+
+/* == CONTACT-HERO == */
+.hero-contact {
+  background-image: url("https://www.stephenfry.com/wp-content/uploads/2024/05/STEPHEN-FRY-1080X1080-V5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  position: relative;
+  text-align: center;
+  padding: 8% 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: white;
+  z-index: -1;
+}
+
+.hero-contact h1 {
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+.hero-contact p {
+  font-size: 1.2em;
+  margin: 0 auto;
+}
+/* == CONTACT-HERO == */
+
+/* == CONTACT-CONTENT == */
+
+
+
+/* == CONTACT-CONTENT == */
+
+/* == CONTACT-PAGE == */
 
 
 /* FOOTER */
