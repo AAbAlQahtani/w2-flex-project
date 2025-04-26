@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+/* Global */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Sansation", sans-serif;
+  }
+
+  body {
+      background-color: #ecf0f1;
+      color: #333;
+      line-height: 1.6;
+  }
+
+  .container {
+    width: 90%;
+    max-width: 75em;
+    margin: 0 auto;
+    padding: 0 1.5%;
+  }
+
+/* == Global == */
+
+
+/* NAV */
+
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 1em 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .logo {
+    font-size: 1.8em;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+  }
+  .logo span {
+    color: #f39c12;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 4px;
+    transition: 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background-color: #f39c12;
+    color: #2c3e50;
+  }
+
+/* == NAV == */
+
+/* HERO-BIOGRAPHY */
+
+
+.hero {
+    background-image: url("https://m.media-amazon.com/images/M/MV5BOTlmNTY3OWMtZjBhNy00MWVhLWI5MTctYWY0Y2YyZGE5Zjk1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+    text-align: center;
+    padding: 8% 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    z-index: -1;
+  }
+  
+  .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    margin-bottom: 1em;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    margin: 0 auto;
+  }
+  
+
+/* == HERO-BIOGRAPHY == */
+
+.biography-content {
+    padding: 1.6% 0;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 4%;
+    color: #2c3e50;
+    padding-bottom: 1%;
+    border-bottom: #f39c12 solid 3px;
+    border-radius: 50%;
+  }
+  
+  .timeline-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .timeline-card {
+    width: 45%;
+    padding: 1.6%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+  }
+  
+
+  .timeline-card:hover {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .timeline-card h3 {
+    color: #2c3e50;
+    margin-bottom: 1%;
+  }
+  
+  .bio-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+  }
+  .bio-card {
+    width: 40%;
+    margin: 1%;
+    background-color: white;
+    padding: 2%;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+  }
+  .bio-card:hover {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .bio-card h3 {
+    color: #2c3e50;
+    margin-bottom: 2%;
+    border-bottom: 2px solid #f39c12;
+    padding-bottom: 1%;
+  }
+
+/* BIOGRAPHY-CONTENT */
+
+/* FOOTER */
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1.5% 0;
+    margin-top: 2%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+  }
+  
+  footer hr {
+    margin: 1.5%;
+    border-radius: 50%;
+  }
+  
+  footer .made {
+    font-size: 1em;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  footer a:hover {
+    color: #f39c12;
+  }
+
+/* == FOOTER == */
